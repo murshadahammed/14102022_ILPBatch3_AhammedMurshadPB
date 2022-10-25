@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="D:\ILP Experion\SharedDocumentBySuneesh\17102022\POJO\17102022_ILP_OOP_POJO"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="D:\14102022_ILP_Experion_WS\CATCO_ILP_EXPERION.zip"/>
+			<item value="D:\14102022_ILP_Experion_WS\Assignment.zip"/>
+			<item value="D:\14102022_ILP_Experion_WS\Banking.zip"/>
+			<item value="D:\14102022_ILP_Experion_WS\BankAssignment (1).zip"/>
+			<item value="D:\ILP Experion\SharedDocumentBySuneesh\20102022\UseCaseDiscussion (1).zip"/>
+			<item value="D:\14102022_ILP_Experion_WS\SupermarketFinal.zip"/>
+			<item value="D:\ILP Experion\SharedDocumentBySuneesh\18102022\CCJP12_Day12_DateTime.zip"/>
+			<item value="D:\ILP Experion\SharedDocumentBySuneesh\15102022\DemonstrationProgram14102022.zip"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="534"/>
+		<item key="DIALOG_Y_ORIGIN" value="197"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

@@ -1,0 +1,42 @@
+package com.experion.utility;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.experion.entity.Product;
+import com.experion.service.Service;
+
+public class ProductUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		ArrayList<Product>productList=new ArrayList<Product>();
+		int choice;
+		char ch;
+		do
+		{
+			System.out.println("If you want to Add card product please press 1 \n If you want to add account product please press 2 \n If you want to buy any product please press 3");
+			choice = scanner.nextInt();
+			switch(choice)
+			{
+			case 1:Service.createcardProduct();
+				   break;
+			case 2:Service.createaccountProduct();
+			       break;
+			case 3: Service.buyProduct();
+				   break;
+			case 4:Service.displayProduct();
+			       break;
+			default : System.out.println("Invalid choice");
+			}
+			System.out.println("Do you want to continue-Y or N");
+			scanner.nextLine();
+		    ch=scanner.next().charAt(0);
+		}
+		while(ch== 'Y');
+		
+
+	}
+
+}

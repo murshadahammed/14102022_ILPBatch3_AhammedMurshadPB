@@ -1,0 +1,31 @@
+package com.experion.assignment;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Frequency {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  
+			Scanner scanner = new Scanner(System.in);
+	        ArrayList<Integer> list = new ArrayList<Integer>();
+	        char choice;
+	        do {
+	            System.out.println("Enter the integer element :");
+	            list.add(scanner.nextInt());
+	            System.out.println("Do you want to enter more elements(y/n):");
+	            choice = scanner.next().charAt(0);
+	        } while (choice == 'y');
+	        
+	        for (int i = 0; i < list.size(); i++) {
+	            int count = 0;
+	            for (Integer num : list)
+	                
+	                if (num == list.get(i))
+	                    count++;
+	            System.out.print("Frequency of the element " + list.get(i) + " in the array is " + count + '\n');
+	        }
+	}
+
+}

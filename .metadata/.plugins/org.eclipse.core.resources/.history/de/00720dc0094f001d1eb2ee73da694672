@@ -1,0 +1,15 @@
+package com.experion.assignment;
+
+import java.util.Scanner;
+
+public class SumCalculationFour {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+
+		}
+
+	}
+
+}

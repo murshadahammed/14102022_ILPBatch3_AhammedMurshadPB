@@ -1,0 +1,6 @@
+package com.experion.entity;
+
+public interface AccountCardService {
+ public void checkBalance();
+ public void cashDeposit();
+}

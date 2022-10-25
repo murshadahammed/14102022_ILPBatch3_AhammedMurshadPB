@@ -1,0 +1,12 @@
+package com.experion.entity;
+
+public class Class extends Product {
+	private String cardType;
+
+	public Class(String productCode, String productName, String prductType, String cardType) {
+		super(productCode, productName, prductType);
+		this.cardType = cardType;
+	}
+	
+
+}
